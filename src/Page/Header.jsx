@@ -42,7 +42,7 @@ function Header() {
                                     <Link class="nav-link active" aria-current="page" to="/"><IoHomeSharp /> Home</Link>
                                 </li>
                                 <li class="nav-item">
-                                    <Link class="nav-link" to="/about"><MdManageAccounts /> About/ Contacts</Link>
+                                    <Link class="nav-link" to="/about"><MdManageAccounts /> About & Contacts</Link>
                                 </li>
                                 <li class="nav-item">
                                     <Link class="nav-link" to="/resume"><MdOutlineContactPage /> Resume</Link>
