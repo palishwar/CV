@@ -36,20 +36,24 @@ function Header() {
                         </button>
                         <div className="collapse navbar-collapse" id="navbarNav">
 
-                            <ul class="nav">
-                                
-                                <li class="nav-item ">
+                            <ul class="links">
+                                 <li class="nav-item">
                                     <Link class="nav-link active" aria-current="page" to="/"><IoHomeSharp /> Home</Link>
                                 </li>
                                 <li class="nav-item">
                                     <Link class="nav-link" to="/about"><MdManageAccounts /> About</Link>
-                                </li>
-                                <li class="nav-item">
+                                </li> 
+                                 <li class="nav-item">
                                     <Link class="nav-link" to="/resume"><MdOutlineContactPage /> Resume</Link>
                                 </li>
                                 <li class="nav-item">
                                     <Link class="nav-link" to="/travel"><RiPagesFill /> Portfolio</Link>
                                 </li>
+
+                               
+                                
+                               
+                                
                             </ul>
                         </div>
                         </div>
