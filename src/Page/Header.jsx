@@ -3,7 +3,7 @@ import { IoHomeSharp } from "react-icons/io5";
 import { MdManageAccounts } from "react-icons/md";
 import { MdOutlineContactPage } from "react-icons/md";
 import { RiPagesFill } from "react-icons/ri";
-import { FaLinkedin, FaWhatsapp, FaFacebook, FaMailBulk } from 'react-icons/fa'
+import { FaLinkedin, FaWhatsapp, FaFacebook, FaMailBulk,FaGithub } from 'react-icons/fa'
 import { Link } from 'react-router-dom';
 function Header() {
     return (
@@ -26,6 +26,9 @@ function Header() {
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="mailto:palishwar99@gmail.com?subject=Regarding CV" ><FaMailBulk /></a>
+                        </li>
+                         <li class="nav-item">
+                            <a class="nav-link" href="https://github.com/dashboard" target='blank' ><FaGithub /></a>
                         </li>
                     </ul>
                 </div>
